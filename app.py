@@ -11,7 +11,7 @@ def root():
     return "welcome to ITIL exam"
 
 
-@app.route("/modules", methods=["GET"])
+@app.route("/module", methods=["GET"])
 def modules():
     return "Ditiss module list :- ItIL & Devops,Security Concepts,Cyber Forensics,Network Defence & Countermeasures,Fundamentals of Computer Networking,Concept of Operating system & Administration,Public key Infrastructure,Compliance Audit"
 
